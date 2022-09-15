@@ -1,0 +1,40 @@
+body {
+   width: 70vw;
+   margin-right: auto;
+   margin-left: auto;
+   font-family: sans-serif;
+}
+h1{
+   font-size: 32px;
+}
+h1,h2,h4 {
+   margin-top: 1.5em;
+}
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+td,th {
+   border: 1px solid black;
+}
+tbody tr:nth-child(odd) {
+   background-color: rgb(199, 197, 197);
+}
+tbody tr:nth-child(even) {
+   background-color: gainsboro;
+}
+thead,tfoot{
+   background-color: rgb(109, 109, 109);
+}
+
+figcaption {
+   font-style: italic;
+   max-width: 100%;
+   display: table-caption;
+   caption-side: bottom;
+}
+
+figure{
+   float:right;
+   display: table;
+}
