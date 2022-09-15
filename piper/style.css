@@ -1,0 +1,96 @@
+.mainContainer {
+   margin: 0 auto;
+   width: 1219px;
+}
+
+.container {
+   box-sizing: border-box;
+   width: 100%;
+   padding: 0 55px;
+}
+
+header {
+   width: 1219px;
+   position: fixed;
+   background-color: #007765;
+   padding: 20px 0px;
+   z-index: 100;
+}
+
+.flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo {
+   float: left;
+}
+
+nav {
+   float: right;
+}
+
+nav li {
+   display: inline-block;
+   color: white;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+.isHere {
+   width: 100%;
+   color: white;
+   position: relative;
+}
+
+.isHere img {
+   width: 100%;
+   margin-top: 84px;
+}
+
+.isHere h1 {
+   font-size: 72px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#problem {
+   margin: 55px;
+}
+
+h3 {
+   color: #007765;
+   font: 64px Roboto;
+   text-align: center;
+   margin-bottom: 32px;
+}
+
+p {
+   color: black;
+   font: 32px Roboto
+}
+
+#introducing {
+   padding: 55px;
+}
+
+#introducing img {
+   float: left;
+   margin-right: 15px;
+}
+
+#team {
+   background-color: rgb(178, 177, 177);
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: space-between;
+   align-content: center;
+   
+}
+

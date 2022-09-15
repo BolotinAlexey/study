@@ -1,0 +1,27 @@
+.wrapper{
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 100px;
+	height: 100px;
+	background-color: #0a0;
+	transform: rotate(-45deg);
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.box{
+width: 140%;
+height: 140%;
+transform: rotate(45deg) translate(-20%);
+
+}
+
+.inbox{
+width: 100%;
+height: 100%;
+
+	background-color: #f00;
+background-image: url(pozitivnye_kartinki_2.jpg);
+background-position: center;
+background-size: cover;
+}
